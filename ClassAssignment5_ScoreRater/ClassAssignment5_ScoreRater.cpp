@@ -20,7 +20,7 @@ int main()
         std::cout << "Medium. That's how you like your drinks?\n\n";
         break;
     case 3: 
-        std::cout << "Hard. Time to put some hairs on that chest.\n\n";
+        std::cout << "Hard. Time to put some hairs on that chest.\n\n";     //Hell yeah
         break;
     default:                                                       //Default will execute if the choice in invalid.
         std::cout << "Yeah, thats not a real choice buddy.\n\n";
@@ -61,3 +61,4 @@ int main()
     std::cout << "Thanks for playing! Ta ta!";                              //Message will play before program ends
     return 0;
 }
+
