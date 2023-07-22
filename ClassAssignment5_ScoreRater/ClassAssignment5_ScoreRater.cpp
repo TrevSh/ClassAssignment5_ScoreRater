@@ -1,6 +1,4 @@
-// ClassAssignment5_ScoreRater.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
+//Use F11 (On windows) To debug the program and see each line executed.
 #include <iostream>
 
 int main()
@@ -14,22 +12,22 @@ int main()
     int score = 1000;
 
     if (score) {
-        std::cout << "Atleast you didnt get zero...";
+        std::cout << "Atleast you didnt get zero...\n";
     }
     if (score >= 250) {
-        std::cout << "You scored 250 or more. Nice";
+        std::cout << "You scored 250 or more. Nice\n";
     }
     if (score >= 500) {
-        std::cout << "You scored 500 or more. Dope";
+        std::cout << "You scored 500 or more. Dope\n";
     }
     if (score >= 1000) {
-        std::cout << "You scored 1000 or more! Crazy!";
+        std::cout << "You scored 1000 or more! Crazy!\n";
     }
     if (score >= 2000) {
-        std::cout << "Your score is over 2000! WOW!";
+        std::cout << "Your score is over 2000! WOW!\n";
     }
     if (score > 9000) {
-        std::cout << "Your score... ITS OVER 9000!!!";
+        std::cout << "Your score... ITS OVER 9000!!!\n";
     }
 
     return 0;
