@@ -22,7 +22,7 @@ int main()
     else if (score >= 250) {
         std::cout << "You scored 250 or more. Nice\n";
     }
-    else{
+    else{                                                               //This will be shown by default or if a user has a score lower than 250.
         std::cout << "Cmon, you didnt even try. Only "<<score<<"? Ridiculous. :/\n";
     }
 
